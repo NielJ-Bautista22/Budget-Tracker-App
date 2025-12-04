@@ -1,43 +1,32 @@
-# Budget-Tracker-App
+# Budget Tracker App
 
-A simple desktop application to help users track their expenses and manage their budget efficiently. Built using Python, Tkinter, and SQLite, with UI layout designed using Figma.
+A simple desktop application designed to help users track expenses and manage their budget efficiently. The application is built using **Python**, and **Tkinter**, with the user interface layout designed in **Figma**.
 
-🖥️ Overview
-The Budget Tracker is a single-window desktop app that allows users to:
+---
 
--Log their current balance
+## Overview
 
--Add and track expenses
+The Budget Tracker is a single-window desktop application that allows users to:
 
--Record the name of the item, amount spent, and date of purchase
+* Log and update their current balance
+* Add and track daily expenses
+* Record item name, amount spent, and date of purchase
+* View updated balance after each transaction
 
--View updated balances after each transaction
+---
 
-🛠️ Technologies Used
-Python – Core programming language
+## Technologies Used
 
-Tkinter – GUI framework for the desktop interface
+* **Python** – Core programming language
+* **Tkinter** – GUI framework for the desktop interface
+* **Figma** – Used for designing the layout and visual structure of the application
 
-SQLite – Lightweight local database for storing budget and expense data
+---
 
-Figma – Used for designing the layout and visual structure of the app
+## Features
 
-📦 Features
-📌 Easy-to-use interface with a clean, minimal design
+* User-friendly interface with a clean and minimal design
+* Balance input with real-time updates
+* Add expense records with detailed information (name, cost, and date)
+* Chronological viewing of expense history
 
-💰 Balance input and dynamic updating
-
-🧾 Add expense items with details (name, cost, date)
-
-🗃️ Stores all data locally using SQLite
-
-📆 View expenses chronologically
-
-📝 Future Improvements
--Add category tagging for expenses
-
--Generate monthly or weekly reports
-
--Option to export data (CSV or PDF)
-
--Implement dark mode
